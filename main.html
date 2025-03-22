@@ -1,673 +1,669 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Тайтл</title>
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/lightgallery.css">
-    <link rel="stylesheet" href="css/main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тайтл</title>
+<style>.header.header_inner_page .header_bottom .anchor_menu li a:hover,.header_top .anchor_menu li a:hover,.header_top .btn_button{text-decoration:underline}.header_bottom,.header_top{backdrop-filter:blur(10px)}.header.header_inner_page .header_bottom .anchor_menu li a,.header_top .anchor_menu li a{display:block;padding:5px 22px;text-decoration:none;font-size:18px;line-height:155%;font-weight:400}.btn_button{display:block;border:none;background:var(--new-2);border-radius:0;outline:0;padding:13px 24px;font-weight:600;font-size:16px;line-height:100%;color:var(--white);transition:.3s;text-align:center;cursor:pointer;font-family:var(--font-family);text-decoration:none;position:relative}.btn_button:hover{opacity:.8}.header{position:relative;z-index:10}.header_top{background:var(--text);text-align:right}.header_top .anchor_menu{padding:0;margin:0;list-style:none;font-size:0}.header.header_inner_page .header_bottom .anchor_menu li,.header_top .anchor_menu li{display:inline-block;vertical-align:top}.header_top .anchor_menu li a{color:var(--white)}.header_top .btn_button{display:none;padding:11px 24px}.header_bottom{background:rgba(0,0,0,.3);padding:0 20px}.header_bottom .block_inner{display:flex;padding:17px 0 7px;max-width:1220px}.header_bottom .block_inner .logo{flex:0 0 243px;margin:-44px 0 0;font-size:0}.header_bottom .block_inner .logo a{display:block;text-decoration:none}.header_bottom .block_inner .logo img{width:auto;height:auto}.header_bottom .block_inner .right{flex:1 1 auto;display:flex;justify-content:end;align-items:start}.header_bottom .block_inner .right .phone{flex:0 0 314px;margin-right:33px}.header_bottom .block_inner .right .phone .item{display:flex;align-items:center;gap:10px;font-weight:400;font-size:18px;line-height:155%;color:var(--white);margin-bottom:0}.header_bottom .block_inner .right .phone .item:last-child{margin-bottom:0}.header_bottom .block_inner .right .phone .item a{text-decoration:none;padding-left:24px;position:relative}.header_bottom .block_inner .right .phone .item a:before{content:"";position:absolute;top:0;bottom:0;left:0;width:16px;height:16px;background:url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_662_11288)'%3E%3Cpath d='M8.002 0H7.998C3.587 0 0 3.588 0 8C0 9.75 0.564 11.372 1.523 12.689L0.526 15.661L3.601 14.678C4.866 15.516 6.375 16 8.002 16C12.413 16 16 12.411 16 8C16 3.589 12.413 0 8.002 0Z' fill='%234CAF50' /%3E%3Cpath d='M11.857 11.2256C11.694 11.6857 11.0472 12.0674 10.5313 12.1789C10.1784 12.254 9.71733 12.314 8.16535 11.6705C6.1802 10.8481 4.9018 8.83088 4.80217 8.7C4.70675 8.56912 4 7.63185 4 6.6625C4 5.69314 4.49228 5.22113 4.69071 5.01848C4.85367 4.85213 5.12303 4.77614 5.38141 4.77614C5.46501 4.77614 5.54016 4.78036 5.60771 4.78374C5.80614 4.79218 5.90578 4.804 6.03666 5.11727C6.19962 5.50991 6.59649 6.47926 6.64377 6.5789C6.6919 6.67854 6.74003 6.81364 6.67248 6.94452C6.60915 7.07962 6.55342 7.13957 6.45378 7.25441C6.35415 7.36925 6.25958 7.45706 6.15994 7.58034C6.06874 7.68758 5.96573 7.80242 6.08057 8.00085C6.1954 8.19505 6.59226 8.8427 7.17658 9.36284C7.93061 10.0341 8.54195 10.2486 8.76064 10.3398C8.92361 10.4073 9.11782 10.3913 9.23688 10.2646C9.38802 10.1017 9.57463 9.83147 9.76462 9.56549C9.89972 9.37466 10.0703 9.35102 10.2493 9.41857C10.4317 9.4819 11.3968 9.95897 11.5952 10.0578C11.7937 10.1574 11.9246 10.2047 11.9727 10.2883C12.02 10.3719 12.02 10.7645 11.857 11.2256Z' fill='%23FAFAFA' /%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_662_11288'%3E%3Crect width='16' height='16' fill='white' /%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E") 50% no-repeat;margin:auto}.header.header_inner_page .header_bottom .block_inner .right .phone .item span,.header_bottom .block_inner .right .phone .item span{color:var(--text2)}.header_bottom .block_inner .right .btn_button{flex:0 0 262px;padding:18px 24px}@media (max-width:1024px){.header_top{background:#000}.header_top .btn_button{display:block;width:255px}.header_top .block_inner{display:flex;justify-content:space-between}.header.header_inner_page .header_bottom .anchor_menu,.header_bottom .block_inner .btn_button,.header_top .block_inner .anchor_menu{display:none}.header_bottom .block_inner{padding:6px 0;align-items:center}.header_bottom .block_inner .logo{flex:0 0 121px;margin:0 0 0 -10px}.header_bottom .block_inner .right .phone{margin:0;flex:0 0 auto}.header_bottom .block_inner .right .phone .item{font-size:15px}.header_bottom .block_inner .right .phone .item:last-child span{width:47px;overflow:hidden}}@media (max-width:370px){.header_bottom .block_inner .logo{flex:0 0 90px}}.header.header_inner_page .header_bottom{box-shadow:0 11px 30px -4px rgba(0,0,0,.15);background:var(--white)}.header.header_inner_page .header_bottom .block_inner .right .phone .item{color:var(--text)}.header.header_inner_page .header_bottom .anchor_menu{padding:0;margin:0;list-style:none;font-size:0;text-align:right}.header.header_inner_page .header_bottom .anchor_menu li a{color:var(--text)}@media (max-width:1200px){.header.header_inner_page .header_bottom .anchor_menu li a{padding:5px 10px}}@media (min-width:1025px){.header.header_inner_page .header_bottom .block_inner{padding:0 0 6px}.header.header_inner_page .header_bottom .block_inner .logo{flex:0 0 283px;margin:0}.header.header_inner_page .header_bottom .block_inner .right{flex-wrap:wrap;padding:15px 0 0}.header.header_inner_page .header_top{display:none}}.slider_top_wr{position:relative;margin-top:-93px;z-index:1}.slider_top_wr .swiper-slide{min-height:calc(100vh - 22px);position:relative;overflow:hidden;padding:93px 20px;background-size:cover;background-position:50%;background-repeat:no-repeat}.slider_top_wr .swiper-slide:before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(20,20,20,.5)}.slider_top_wr .swiper-slide .block_inner{position:relative;z-index:1;padding:130px 0 30px}.slider_top_wr .swiper-slide .block_inner .body{max-width:790px;opacity:0;transition:.6s;transform:translate(0,50%)}.slider_top_wr .swiper-slide .block_inner .body .title{font-weight:400;font-size:58px;line-height:140%;text-transform:uppercase;color:var(--white);padding-bottom:3px}.slider_top_wr .swiper-slide .block_inner .body .text{font-weight:500;font-size:24px;line-height:155%;color:var(--white);max-width:618px}@media (max-width:1024px){.slider_top_wr{margin-top:-67px}.slider_top_wr .swiper-slide .block_inner{padding:60px 0}}.slider_top_wr .swiper-slide.swiper-slide-active .block_inner .body{transform:translate(0,0);opacity:1}.slider_top_wr .swiper_arrow{position:absolute;bottom:30px;left:20px;right:20px;max-width:1212px;margin:0 auto;z-index:2;display:flex;align-items:center}@media (max-width:767px){.slider_top_wr .swiper-slide{min-height:calc(100vh + 19px)}.slider_top_wr .swiper-slide .block_inner{padding:22px 0}.slider_top_wr .swiper-slide .block_inner .body .title{font-size:32px}.slider_top_wr .swiper-slide .block_inner .body .text{font-size:18px}.slider_top_wr .swiper_arrow{display:none}}.slider_top_wr .swiper_arrow .swiper-pagination{position:static;width:auto}.slider_top_wr .swiper_arrow .swiper-pagination .swiper-pagination-bullet{background:var(--white);opacity:.2;width:8px;height:8px;margin:0 16px 0 0;cursor:pointer}.slider_top_wr .swiper_arrow .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{opacity:1;background:var(--new-2)}.slider_top_wr .swiper_arrow .swiper_arrow_btn{width:24px;height:24px;background:url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='23' height='23' rx='9.5' stroke='white' /%3E%3Cpath d='M10.5 8L14.5 12L10.5 16' stroke='white' stroke-width='2' /%3E%3C/svg%3E") 50% no-repeat;cursor:pointer;transition:.3s}.slider_top_wr .swiper_arrow .swiper_arrow_btn.swiper-button-disabled{opacity:.2}.slider_top_wr .swiper_arrow .swiper_arrow_btn.swiper-images-prev{transform:rotate(180deg)}.slider_top_wr .swiper_arrow .swiper_arrow_btn.swiper-images-next{margin-left:15px}.slider_top_wr .mySwiper_images{position:relative;z-index:1}</style>
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/lightgallery.css">
+<link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-    <div class="menu_burger">
-        <div class="menu_scroll">
-            <ul class="anchor_menu">
-                <li><a href="#about">О компании</a></li>
-                <li><a href="#projects">Проекты</a></li>
-                <li><a href="#team">Команда</a></li>
-                <li><a href="#work">Как работаем</a></li>
-                <li><a href="#reviews">Отзывы</a></li>
-                <li><a href="#contacts">Контакты</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="site_wrapper">
-        <header class="header">
-            <div class="header_top">
-                <div class="block_inner">
-                    <div class="burger">МЕНЮ</div>
-                    <ul class="anchor_menu">
-                        <li><a href="#about">О компании</a></li>
-                        <li><a href="#projects">Проекты</a></li>
-                        <li><a href="#team">Команда</a></li>
-                        <li><a href="#work">Как работаем</a></li>
-                        <li><a href="#reviews">Отзывы</a></li>
-                        <li><a href="#contacts">Контакты</a></li>
-                    </ul>
-                    <a href="" class="btn_button">Обсудить проект</a>
-                </div>
-            </div>
-            <div class="header_bottom">
-                <div class="block_inner">
-                    <div class="logo">
-                        <a href="">
-                            <img src="files/logo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="right">
-                        <div class="phone">
-                            <div class="item">
-                                <a href="tel:+7 910 193 79 99">+7 910 193 79 99</a>
-                                <span>Дмитрий</span>
-                            </div>
-                            <div class="item">
-                                <a href="tel:+7 910 377-13-77">+7 910 377-13-77</a>
-                                <span>Администратор</span>
-                            </div>
-                        </div>
-                        <a href="" class="btn_button">Обсудить проект</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="content_block_wr">
-            <div class="slider_top_wr">
-                <div class="swiper_arrow">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper_arrow_btn swiper-images-prev"></div>
-                    <div class="swiper_arrow_btn swiper-images-next"></div>
-                </div>
-                <div class="swiper mySwiper_images">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="background-image: url(files/slid.jpg);">
-                            <div class="block_inner">
-                                <div class="body">
-                                    <div class="title">ВАШ ДОМ. ВАША ИСТОРИЯ ВАША МЕБЕЛЬ</div>
-                                    <div class="text">Индивидуальная мебель ,наполняющая пространство теплом и гармонией.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" style="background-image: url(files/slid.jpg);">
-                            <div class="block_inner">
-                                <div class="body">
-                                    <div class="title">Lorem ipsum dolor, sit </div>
-                                    <div class="text">amet consectetur adipisicing elit. Illum eaque optio deleniti voluptatem</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" style="background-image: url(files/slid.jpg);">
-                            <div class="block_inner">
-                                <div class="body">
-                                    <div class="title">amet consectetur adipisicing</div>
-                                    <div class="text">Lorem ipsum dolor, sit </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about_block_wr" id="about">
-                <div class="block_inner">
-                    <div class="left">
-                        <div class="title">Давайте </div>
-                        <div class="subtitle">познакомимся</div>
-                        <div class="name">о компании</div>
-                        <div class="text">Торгово-промышленная компания “Палаццо” занимается производством мебели по индивидуальным дизайн-проектам и обустройством интерьеров.Находимся мы в прекрасном волжском городе Костроме, а наши изделия украшают квартиры и дома в разных уголках нашей необьятной Родины</div>
-                    </div>
-                    <div class="right">
-                        <div class="play_btn"></div>
-                        <video src="files/frontend.mp4" poster="files/video_p.jpg"></video>
-                    </div>
-                    <div class="mobile_body">
-                        <div class="name">о компании</div>
-                        <div class="text">Торгово-промышленная компания “Палаццо” занимается производством мебели по индивидуальным дизайн-проектам и обустройством интерьеров.Находимся мы в прекрасном волжском городе Костроме, а наши изделия украшают квартиры и дома в разных уголках нашей необьятной Родины</div>
-                    </div>
-                </div>
-            </div>
-            <div class="projects_block_wr" id="projects">
-                <div class="block_inner">
-                    <div class="title">РЕАЛИЗОВАННЫЕ ПРОЕКТЫ</div>
-                    <div class="inner">
-                        <a href="product.html" class="item">
-                            <img src="files/proj1.jpg" alt="" width="592" height="315">
-                            <span class="name">Кухня для просторной квартиры</span>
-                        </a>
-                        <a href="product.html" class="item">
-                            <img src="files/proj2.jpg" alt="" width="592" height="315">
-                            <span class="name">Кухня название проекта</span>
-                        </a>
-                        <a href="product.html" class="item">
-                            <img src="files/proj3.jpg" alt="" width="592" height="315">
-                            <span class="name">Новый проект в портфолио</span>
-                        </a>
-                        <a href="product.html" class="item">
-                            <img src="files/proj4.jpg" alt="" width="592" height="315">
-                            <span class="name">Кухня для просторной квартиры</span>
-                        </a>
-                        <a href="product.html" class="item">
-                            <img src="files/proj1.jpg" alt="" width="592" height="315">
-                            <span class="name">Кухня для просторной квартиры</span>
-                        </a>
-                        <a href="product.html" class="item">
-                            <img src="files/proj2.jpg" alt="" width="592" height="315">
-                            <span class="name">Кухня название проекта</span>
-                        </a>
-                        <a href="product.html" class="item">
-                            <img src="files/proj3.jpg" alt="" width="592" height="315">
-                            <span class="name">Новый проект в портфолио</span>
-                        </a>
-                        <a href="product.html" class="item">
-                            <img src="files/proj4.jpg" alt="" width="592" height="315">
-                            <span class="name">Кухня для просторной квартиры</span>
-                        </a>
-                    </div>
-                    <div class="btn_button btn_more">ПОКАЗАТЬ ЕЩЕ</div>
-                </div>
-            </div>
-            <div class="preim_block_wr">
-                <div class="block_inner">
-                    <div class="title">НАШИ ПРЕИМУЩЕСТВА</div>
-                    <div class="inner">
-                        <div class="col">
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr1.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Полная комплектация проекта</div>
-                                    <div class="body">Мы не просто создаем мебель, а полностью комплектуем ваш интерьер – от встроенной техники до аксессуаров. Вам остается только наслаждаться результатом.</div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr2.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Используем только премиальные материалы</div>
-                                    <div class="body">Натуральное дерево, мрамор, кварцевый камень, эксклюзивные текстуры и премиальная фурнитура – мебель, которая будет радовать вас долгие годы.</div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr3.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Точность в деталях – идеальные чертежи и проектирование</div>
-                                    <div class="body">Каждый проект создается с учетом всех нюансов помещения. Грамотные чертежи, 3D-визуализация и точный расчет обеспечивают идеальную реализацию.</div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr4.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Полный цикл производства – от идеи до установки</div>
-                                    <div class="body">Мы берем на себя весь процесс: от первых эскизов до финального монтажа. Вам не нужно беспокоиться о деталях – мы все продумываем за вас.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr5.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Уникальный дизайн под ваш стиль и образ жизни</div>
-                                    <div class="body">Мы не работаем по шаблонам – каждая кухня, шкаф или интерьерный элемент создается индивидуально, с учетом ваших пожеланий и привычек</div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr6.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Инновационные технологии и продуманные решени</div>
-                                    <div class="body">Скрытые системы хранения, умная организация пространства, доводчики, push-to-open – все для вашего комфорта и удобства.</div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr7.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Контроль качества на каждом этапе</div>
-                                    <div class="body">Мы уделяем внимание каждой детали – от выбора материалов до установки, чтобы результат соответствовал высочайшим стандартам.</div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="icon">
-                                    <img src="files/pr8.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Гарантия и сервисное сопровождение</div>
-                                    <div class="body">Мы уверены в качестве своей мебели, поэтому предоставляем гарантию и остаемся на связи даже после установки.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper mySwiper_preim">
-                        <div class="swiper-wrapper">
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr1.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Полная комплектация проекта</div>
-                                    <div class="body">Мы не просто создаем мебель, а полностью комплектуем ваш интерьер – от встроенной техники до аксессуаров. Вам остается только наслаждаться результатом.</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr2.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Используем только премиальные материалы</div>
-                                    <div class="body">Натуральное дерево, мрамор, кварцевый камень, эксклюзивные текстуры и премиальная фурнитура – мебель, которая будет радовать вас долгие годы.</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr3.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Точность в деталях – идеальные чертежи и проектирование</div>
-                                    <div class="body">Каждый проект создается с учетом всех нюансов помещения. Грамотные чертежи, 3D-визуализация и точный расчет обеспечивают идеальную реализацию.</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr4.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Полный цикл производства – от идеи до установки</div>
-                                    <div class="body">Мы берем на себя весь процесс: от первых эскизов до финального монтажа. Вам не нужно беспокоиться о деталях – мы все продумываем за вас.</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr5.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Уникальный дизайн под ваш стиль и образ жизни</div>
-                                    <div class="body">Мы не работаем по шаблонам – каждая кухня, шкаф или интерьерный элемент создается индивидуально, с учетом ваших пожеланий и привычек</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr6.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Инновационные технологии и продуманные решени</div>
-                                    <div class="body">Скрытые системы хранения, умная организация пространства, доводчики, push-to-open – все для вашего комфорта и удобства.</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr7.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Контроль качества на каждом этапе</div>
-                                    <div class="body">Мы уделяем внимание каждой детали – от выбора материалов до установки, чтобы результат соответствовал высочайшим стандартам.</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="icon">
-                                    <img src="files/pr8.svg" alt="">
-                                </div>
-                                <div class="right">
-                                    <div class="name">Гарантия и сервисное сопровождение</div>
-                                    <div class="body">Мы уверены в качестве своей мебели, поэтому предоставляем гарантию и остаемся на связи даже после установки.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper_arrow">
-                        <div class="swiper-pagination_preim"></div>
-                        <div class="swiper_arrow_btn swiper-preim-prev"></div>
-                        <div class="swiper_arrow_btn swiper-preim-next"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="team_block_wr" id="team">
-                <div class="block_inner">
-                    <div class="title_block">
-                        <div class="title"><span>КОМАНДА </span>люди,которые с вами всегда на связи</div>
-                        <div class="subtitle">НО! За нами стоит большая команда, которая воплощает в жизнь , все, что задумано в ваших проектах.</div>
-                    </div>
-                    <div class="swiper mySwiper_team">
-                        <div class="swiper-wrapper">
-                            <div class="item swiper-slide">
-                                <div class="image">
-                                    <img src="files/team1.jpg" alt="">
-                                </div>
-                                <div class="body">
-                                    <div class="name">Тощакова Елена</div>
-                                    <div class="text">владелец компании, профессиональный мебельщик, деятель искусств, член союза дизайнеров России</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="image">
-                                    <img src="files/team2.jpg" alt="">
-                                </div>
-                                <div class="body">
-                                    <div class="name">Перков Дмитрий</div>
-                                    <div class="text">руководитель отдела продаж, сопровождающий проекты. технический специалист, профессиональный мебельщик</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="image">
-                                    <img src="files/team3.jpg" alt="">
-                                </div>
-                                <div class="body">
-                                    <div class="name">Чичерина Юлия</div>
-                                    <div class="text">администратор компании,готовый помочь клиенту в любой ситуации и ответить на любой вопрос</div>
-                                </div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="image">
-                                    <img src="files/team4.jpg" alt="">
-                                </div>
-                                <div class="body">
-                                    <div class="name">Строителева Наталья</div>
-                                    <div class="text">менеджер проектов,дизайнер</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="work_block_wr" id="work">
-                <div class="block_inner">
-                    <div class="title">Как мы работаем</div>
-                    <div class="swiper mySwiper_work">
-                        <div class="swiper-wrapper">
-                            <div class="item swiper-slide">
-                                <div class="number">
-                                    <span>1.</span>
-                                    <div class="name">Расчет стоимости</div>
-                                </div>
-                                <div class="body">колько будет стоить ваша новая мебель, мы посчитаем после получения дизайн проекта. Вы получите подробную смету.</div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="number">
-                                    <span>2.</span>
-                                    <div class="name">Выезд дизайнера и замерщика на место</div>
-                                </div>
-                                <div class="body">Наш специалист привозит с собой образцы материалов, вместе с вами или вашим дизайнером выбирает те, что подойдут в вашем случае. Замерщик промеряет помещения, учитывает точки выхода коммуникаций и производит фотосъемку.</div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="number">
-                                    <span>3.</span>
-                                    <div class="name">Составление предварительного проекта</div>
-                                </div>
-                                <div class="body">После снятия черновых замеров технический отдел прорабатывает конструктивное решение мебели с учетом размеров помещения, существующих коммуникаций и электрики, затем проводит окончательные расчеты. При необходимости переноса электрики или коммуникаций наши специалисты подготавливают соответствующие схемы.</div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="number">
-                                    <span>4.</span>
-                                    <div class="name">Контрольный замер</div>
-                                </div>
-                                <div class="body">После того как в вашем помещении завершена стадия отделки, замерщик выезжает на контрольный замер. Это необходимо для того, чтобы мебель идеально вписалась в помещение.</div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="number">
-                                    <span>5.</span>
-                                    <div class="name">Сроки производства</div>
-                                </div>
-                                <div class="body">Для качественного изготовления мебели требуется не менее двух месяцев. Соответственно вам стоит заранее обратиться в салон для просчета и заказа мебели</div>
-                            </div>
-                            <div class="item swiper-slide">
-                                <div class="number">
-                                    <span>6.</span>
-                                    <div class="name">Сервис и гарантийное обслуживание</div>
-                                </div>
-                                <div class="body">Мы предоставляем услуги по доставке и установке мебели. Предусмотрено гарантийное обслуживание мебели.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper_arrow">
-                        <div class="swiper-pagination_work"></div>
-                        <div class="swiper_arrow_btn swiper-work-prev"></div>
-                        <div class="swiper_arrow_btn swiper-work-next"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="active_block_wr">
-                <div class="block_inner">
-                    <div class="title">Наша социальная и профессиональная активность</div>
-                    <div class="block_text">
-                        <div class="text">Мы-активная компания и постоянно учавствуем в отраслевых выставках и мероприятиях по дизайну,также наши успехи отмечают администрация города и области</div>
-                        <div class="swiper_arrow">
-                            <div class="swiper-pagination_active"></div>
-                            <div class="swiper_arrow_btn swiper-active-prev"></div>
-                            <div class="swiper_arrow_btn swiper-active-next"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper mySwiper_active">
-                    <div class="swiper-wrapper">
-                        <a href="files/ac1.jpg" class="item swiper-slide">
-                            <img src="files/ac1.jpg" alt="">
-                        </a>
-                        <a href="files/ac2.jpg" class="item swiper-slide">
-                            <img src="files/ac2.jpg" alt="">
-                        </a>
-                        <a href="files/ac3.jpg" class="item swiper-slide">
-                            <img src="files/ac3.jpg" alt="">
-                        </a>
-                        <a href="files/ac4.jpg" class="item swiper-slide">
-                            <img src="files/ac4.jpg" alt="">
-                        </a>
-                        <a href="files/ac5.jpg" class="item swiper-slide">
-                            <img src="files/ac5.jpg" alt="">
-                        </a>
-                        <a href="files/ac6.jpg" class="item swiper-slide">
-                            <img src="files/ac6.jpg" alt="">
-                        </a>
-                        <a href="files/ac7.jpg" class="item swiper-slide">
-                            <img src="files/ac7.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="block_inner block_border">
-                    <div class="text">Мы-активная компания и постоянно учавствуем в отраслевых выставках и мероприятиях по дизайну,также наши успехи отмечают администрация города и области</div>
-                </div>
-            </div>
-            <div class="partner_block_wr">
-                <div class="image_bg" style="background-image: url(files/part_bg.jpg);"></div>
-                <div class="image_bg" style="background-image: url(files/part_bg2.jpg);"></div>
-                <div class="image_bg" style="background-image: url(files/part_bg3.jpg);"></div>
-                <div class="image_bg" style="background-image: url(files/part_bg4.jpg);"></div>
-                <div class="image_bg" style="background-image: url(files/part_bg5.jpg);"></div>
-                <div class="image_bg" style="background-image: url(files/part_bg6.jpg);"></div>
-                <div class="image_bg" style="background-image: url(files/part_bg7.jpg);"></div>
-                <div class="image_bg" style="background-image: url(files/part_bg8.jpg);"></div>
-                <div class="block_inner">
-                    <div class="title">Посмотрите, <strong>что говорят наши партнеры</strong></div>
-                    <div class="slider_inner">
-                        <div class="swiper mySwiper_partner">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including</div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="right">
-                                        <div class="image">
-                                            <img src="files/part.jpg" alt="">
-                                        </div>
-                                        <div class="name">Имя фамилия</div>
-                                        <div class="date">00 месяц 2000</div>
-                                        <a href="" class="link">Посмотреть профиль Вконакте</a>
-                                    </div>
-                                    <div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper_arrow">
-                            <div class="swiper_arrow_btn swiper-partner-prev"></div>
-                            <div class="swiper_arrow_btn swiper-partner-next"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="reviews_block_wr" id="reviews">
-                <div class="block_inner">
-                    <div class="title">отзывы КЛИЕНТОВ</div>
-                </div>
-            </div>
-        </div>
-        <footer class="footer" id="contacts">
-            <div class="block_inner">
-                <div class="left">
-                    <div class="title">Остались вопросы?</div>
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A66f9d859c051b7f2673354b937ae152c8f2e2321c8999f00ae4e5cf3dab7dcab&amp;source=constructor" width="100%" height="475" frameborder="0"></iframe>
-                </div>
-                <div class="right">
-                    <div class="title">Остались вопросы?</div>
-                    <div class="text">Задайте ваш вопрос или кратко опишите ситуацию. <br>Мы очень быстро свяжемся с вами</div>
-                    <div class="address">
-                        <div class="name">Адрес:</div>
-                        <div class="body">г. Кострома ул. Димитрова 15</div>
-                    </div>
-                    <div class="phone">
-                        <div class="name">Свяжитесь с нами:</div>
-                        <div class="body">
-                            <div class="item">
-                                <a href="tel:+7 910 193 79 99">+7 910 193 79 99</a>
-                                <span> Дмитрий</span>
-                            </div>
-                            <div class="item">
-                                <a href="tel:+7 910 377-13-77">+7 910 377-13-77</a>
-                                <span> Администратор</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="soc_block">
-                        <a href="">
-                            <img src="files/soc1.svg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="files/soc2.svg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="files/soc3.svg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="files/soc4.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="time">
-                        <div class="name">Режим работы:</div>
-                        <div class="body">Пн-Пт: 9.00 - 18.00 Сб: 10.00 - 16.00</div>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <form class="form_block" action="send_form.php" method="post" enctype="multipart/form-data">
-                        <div class="row_fields">
-                            <div class="col">
-                                <div class="field">
-                                    <input type="text" name="name" placeholder="Ваше имя">
-                                </div>
-                                <div class="field required">
-                                    <input type="text" name="phone" placeholder="Ваш номер телефона" required>
-                                </div>
-                            </div>
-                            <div class="textarea">
-                                <div class="field">
-                                    <textarea name="message" placeholder="Дополнительная информация"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bottom_field">
-                            <div class="field file">
-                                <input type="file" name="file" id="file_field">
-                                <label for="file_field">Прикрепить файл</label>
-                            </div>
-                            <div class="field checkbox required">
-                                <label>
-                                    <input type="checkbox" name="policy" required>
-                                    <i></i>
-                                    <span>Я согласен с <a href="">политикой конфиденциальности</a></span>
-                                </label>
-                            </div>
-                        </div>
-                        <button class="btn" type="submit">Отправить сообщение</button>
-                    </form>
-                    <div class="police_block">Политика конфиденциальности</div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <div class="up_btn"></div>
-    <script src="js/lightgallery-all.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+<div class="menu_burger">
+<div class="menu_scroll">
+<ul class="anchor_menu">
+<li><a href="#about">О компании</a></li>
+<li><a href="#projects">Проекты</a></li>
+<li><a href="#team">Команда</a></li>
+<li><a href="#work">Как работаем</a></li>
+<li><a href="#reviews">Отзывы</a></li>
+<li><a href="#contacts">Контакты</a></li>
+</ul>
+</div>
+</div>
+<div class="site_wrapper">
+<header class="header">
+<div class="header_top">
+<div class="block_inner">
+<div class="burger">МЕНЮ</div>
+<ul class="anchor_menu">
+<li><a href="#about">О компании</a></li>
+<li><a href="#projects">Проекты</a></li>
+<li><a href="#team">Команда</a></li>
+<li><a href="#work">Как работаем</a></li>
+<li><a href="#reviews">Отзывы</a></li>
+<li><a href="#contacts">Контакты</a></li>
+</ul>
+<a href="" class="btn_button">Обсудить проект</a>
+</div>
+</div>
+<div class="header_bottom">
+<div class="block_inner">
+<div class="logo">
+<a href="">
+<img src="files/logo.png" width="243" height="111" alt="">
+</a>
+</div>
+<div class="right">
+<div class="phone">
+<div class="item">
+<a href="tel:+7 910 193 79 99">+7 910 193 79 99</a>
+<span>Дмитрий</span>
+</div>
+<div class="item">
+<a href="tel:+7 910 377-13-77">+7 910 377-13-77</a>
+<span>Администратор</span>
+</div>
+</div>
+<a href="" class="btn_button">Обсудить проект</a>
+</div>
+</div>
+</div>
+</header>
+<div class="content_block_wr"><div class="slider_top_wr">
+<div class="swiper_arrow">
+<div class="swiper-pagination"></div>
+<div class="swiper_arrow_btn swiper-images-prev"></div>
+<div class="swiper_arrow_btn swiper-images-next"></div>
+</div>
+<div class="swiper mySwiper_images">
+<div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image: url(files/slid.jpg);">
+<div class="block_inner">
+<div class="body">
+<div class="title">ВАШ ДОМ. ВАША ИСТОРИЯ ВАША МЕБЕЛЬ</div>
+<div class="text">Индивидуальная мебель ,наполняющая пространство теплом и гармонией.</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide" style="background-image: url(files/slid.jpg);">
+<div class="block_inner">
+<div class="body">
+<div class="title">Lorem ipsum dolor, sit </div>
+<div class="text">amet consectetur adipisicing elit. Illum eaque optio deleniti voluptatem</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide" style="background-image: url(files/slid.jpg);">
+<div class="block_inner">
+<div class="body">
+<div class="title">amet consectetur adipisicing</div>
+<div class="text">Lorem ipsum dolor, sit </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="about_block_wr" id="about">
+<div class="block_inner">
+<div class="left">
+<div class="title">Давайте </div>
+<div class="subtitle">познакомимся</div>
+<div class="name">о компании</div>
+<div class="text">Торгово-промышленная компания “Палаццо” занимается производством мебели по индивидуальным дизайн-проектам и обустройством интерьеров.Находимся мы в прекрасном волжском городе Костроме, а наши изделия украшают квартиры и дома в разных уголках нашей необьятной Родины</div>
+</div>
+<div class="right">
+<div class="play_btn"></div>
+<video src="files/frontend.mp4" poster="files/video_p.jpg"></video>
+</div>
+<div class="mobile_body">
+<div class="name">о компании</div>
+<div class="text">Торгово-промышленная компания “Палаццо” занимается производством мебели по индивидуальным дизайн-проектам и обустройством интерьеров.Находимся мы в прекрасном волжском городе Костроме, а наши изделия украшают квартиры и дома в разных уголках нашей необьятной Родины</div>
+</div>
+</div>
+</div>
+<div class="projects_block_wr" id="projects">
+<div class="block_inner">
+<div class="title">РЕАЛИЗОВАННЫЕ ПРОЕКТЫ</div>
+<div class="inner">
+<a href="product.html" class="item">
+<img src="files/proj1.jpg" alt="" width="592" height="315">
+<span class="name">Кухня для просторной квартиры</span>
+</a>
+<a href="product.html" class="item">
+<img src="files/proj2.jpg" alt="" width="592" height="315">
+<span class="name">Кухня название проекта</span>
+</a>
+<a href="product.html" class="item">
+<img src="files/proj3.jpg" alt="" width="592" height="315">
+<span class="name">Новый проект в портфолио</span>
+</a>
+<a href="product.html" class="item">
+<img src="files/proj4.jpg" alt="" width="592" height="315">
+<span class="name">Кухня для просторной квартиры</span>
+</a>
+<a href="product.html" class="item">
+<img src="files/proj1.jpg" alt="" width="592" height="315">
+<span class="name">Кухня для просторной квартиры</span>
+</a>
+<a href="product.html" class="item">
+<img src="files/proj2.jpg" alt="" width="592" height="315">
+<span class="name">Кухня название проекта</span>
+</a>
+<a href="product.html" class="item">
+<img src="files/proj3.jpg" alt="" width="592" height="315">
+<span class="name">Новый проект в портфолио</span>
+</a>
+<a href="product.html" class="item">
+<img src="files/proj4.jpg" alt="" width="592" height="315">
+<span class="name">Кухня для просторной квартиры</span>
+</a>
+</div>
+<div class="btn_button btn_more">ПОКАЗАТЬ ЕЩЕ</div>
+</div>
+</div>
+<div class="preim_block_wr">
+<div class="block_inner">
+<div class="title">НАШИ ПРЕИМУЩЕСТВА</div>
+<div class="inner">
+<div class="col">
+<div class="item">
+<div class="icon">
+<img src="files/pr1.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Полная комплектация проекта</div>
+<div class="body">Мы не просто создаем мебель, а полностью комплектуем ваш интерьер – от встроенной техники до аксессуаров. Вам остается только наслаждаться результатом.</div>
+</div>
+</div>
+<div class="item">
+<div class="icon">
+<img src="files/pr2.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Используем только премиальные материалы</div>
+<div class="body">Натуральное дерево, мрамор, кварцевый камень, эксклюзивные текстуры и премиальная фурнитура – мебель, которая будет радовать вас долгие годы.</div>
+</div>
+</div>
+<div class="item">
+<div class="icon">
+<img src="files/pr3.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Точность в деталях – идеальные чертежи и проектирование</div>
+<div class="body">Каждый проект создается с учетом всех нюансов помещения. Грамотные чертежи, 3D-визуализация и точный расчет обеспечивают идеальную реализацию.</div>
+</div>
+</div>
+<div class="item">
+<div class="icon">
+<img src="files/pr4.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Полный цикл производства – от идеи до установки</div>
+<div class="body">Мы берем на себя весь процесс: от первых эскизов до финального монтажа. Вам не нужно беспокоиться о деталях – мы все продумываем за вас.</div>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="item">
+<div class="icon">
+<img src="files/pr5.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Уникальный дизайн под ваш стиль и образ жизни</div>
+<div class="body">Мы не работаем по шаблонам – каждая кухня, шкаф или интерьерный элемент создается индивидуально, с учетом ваших пожеланий и привычек</div>
+</div>
+</div>
+<div class="item">
+<div class="icon">
+<img src="files/pr6.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Инновационные технологии и продуманные решени</div>
+<div class="body">Скрытые системы хранения, умная организация пространства, доводчики, push-to-open – все для вашего комфорта и удобства.</div>
+</div>
+</div>
+<div class="item">
+<div class="icon">
+<img src="files/pr7.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Контроль качества на каждом этапе</div>
+<div class="body">Мы уделяем внимание каждой детали – от выбора материалов до установки, чтобы результат соответствовал высочайшим стандартам.</div>
+</div>
+</div>
+<div class="item">
+<div class="icon">
+<img src="files/pr8.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Гарантия и сервисное сопровождение</div>
+<div class="body">Мы уверены в качестве своей мебели, поэтому предоставляем гарантию и остаемся на связи даже после установки.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper mySwiper_preim">
+<div class="swiper-wrapper">
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr1.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Полная комплектация проекта</div>
+<div class="body">Мы не просто создаем мебель, а полностью комплектуем ваш интерьер – от встроенной техники до аксессуаров. Вам остается только наслаждаться результатом.</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr2.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Используем только премиальные материалы</div>
+<div class="body">Натуральное дерево, мрамор, кварцевый камень, эксклюзивные текстуры и премиальная фурнитура – мебель, которая будет радовать вас долгие годы.</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr3.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Точность в деталях – идеальные чертежи и проектирование</div>
+<div class="body">Каждый проект создается с учетом всех нюансов помещения. Грамотные чертежи, 3D-визуализация и точный расчет обеспечивают идеальную реализацию.</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr4.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Полный цикл производства – от идеи до установки</div>
+<div class="body">Мы берем на себя весь процесс: от первых эскизов до финального монтажа. Вам не нужно беспокоиться о деталях – мы все продумываем за вас.</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr5.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Уникальный дизайн под ваш стиль и образ жизни</div>
+<div class="body">Мы не работаем по шаблонам – каждая кухня, шкаф или интерьерный элемент создается индивидуально, с учетом ваших пожеланий и привычек</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr6.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Инновационные технологии и продуманные решени</div>
+<div class="body">Скрытые системы хранения, умная организация пространства, доводчики, push-to-open – все для вашего комфорта и удобства.</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr7.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Контроль качества на каждом этапе</div>
+<div class="body">Мы уделяем внимание каждой детали – от выбора материалов до установки, чтобы результат соответствовал высочайшим стандартам.</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="icon">
+<img src="files/pr8.svg" alt="">
+</div>
+<div class="right">
+<div class="name">Гарантия и сервисное сопровождение</div>
+<div class="body">Мы уверены в качестве своей мебели, поэтому предоставляем гарантию и остаемся на связи даже после установки.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper_arrow">
+<div class="swiper-pagination_preim"></div>
+<div class="swiper_arrow_btn swiper-preim-prev"></div>
+<div class="swiper_arrow_btn swiper-preim-next"></div>
+</div>
+</div>
+</div>				
+<div class="team_block_wr" id="team">
+<div class="block_inner">
+<div class="title_block">
+<div class="title"><span>КОМАНДА  </span>люди,которые с вами всегда на связи</div>
+<div class="subtitle">НО! За нами стоит большая команда, которая воплощает в жизнь , все, что задумано в ваших проектах.</div>
+</div>
+<div class="swiper mySwiper_team">
+<div class="swiper-wrapper">
+<div class="item swiper-slide">
+<div class="image">
+<img src="files/team1.jpg" width="280" height="420" alt="">
+</div>
+<div class="body">
+<div class="name">Тощакова Елена</div>
+<div class="text">владелец компании, профессиональный мебельщик, деятель искусств, член союза дизайнеров России</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="image">
+<img src="files/team2.jpg" width="280" height="420" alt="">
+</div>
+<div class="body">
+<div class="name">Перков Дмитрий</div>
+<div class="text">руководитель отдела продаж, сопровождающий проекты. технический специалист, профессиональный мебельщик</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="image">
+<img src="files/team3.jpg" width="280" height="420" alt="">
+</div>
+<div class="body">
+<div class="name">Чичерина Юлия</div>
+<div class="text">администратор компании,готовый помочь клиенту в любой ситуации и ответить на любой вопрос</div>
+</div>
+</div>
+<div class="item swiper-slide">
+<div class="image">
+<img src="files/team4.jpg" width="280" height="420" alt="">
+</div>
+<div class="body">
+<div class="name">Строителева Наталья</div>
+<div class="text">менеджер проектов,дизайнер</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>	
+<div class="work_block_wr" id="work">
+<div class="block_inner">
+<div class="title">Как мы работаем</div>
+<div class="swiper mySwiper_work">
+<div class="swiper-wrapper">
+<div class="item swiper-slide">
+<div class="number">
+<span>1.</span>
+<div class="name">Расчет стоимости</div>
+</div>
+<div class="body">колько будет стоить ваша новая мебель, мы посчитаем после получения дизайн проекта. Вы получите подробную смету.</div>
+</div>
+<div class="item swiper-slide">
+<div class="number">
+<span>2.</span>
+<div class="name">Выезд дизайнера и замерщика на место</div>
+</div>
+<div class="body">Наш специалист привозит с собой образцы материалов, вместе с вами или вашим дизайнером выбирает те, что подойдут в вашем случае. Замерщик промеряет помещения, учитывает точки выхода коммуникаций и производит фотосъемку.</div>
+</div>
+<div class="item swiper-slide">
+<div class="number">
+<span>3.</span>
+<div class="name">Составление предварительного проекта</div>
+</div>
+<div class="body">После снятия черновых замеров технический отдел прорабатывает конструктивное решение мебели с учетом размеров помещения, существующих коммуникаций и электрики, затем проводит окончательные расчеты. При необходимости переноса электрики или коммуникаций наши специалисты подготавливают соответствующие схемы.</div>
+</div>
+<div class="item swiper-slide">
+<div class="number">
+<span>4.</span>
+<div class="name">Контрольный замер</div>
+</div>
+<div class="body">После того как в вашем помещении завершена стадия отделки, замерщик выезжает на контрольный замер. Это необходимо для того, чтобы мебель идеально вписалась в помещение.</div>
+</div>
+<div class="item swiper-slide">
+<div class="number">
+<span>5.</span>
+<div class="name">Сроки производства</div>
+</div>
+<div class="body">Для качественного изготовления мебели требуется не менее двух месяцев. Соответственно вам стоит заранее обратиться в салон для просчета и заказа мебели</div>
+</div>
+<div class="item swiper-slide">
+<div class="number">
+<span>6.</span>
+<div class="name">Сервис и гарантийное обслуживание</div>
+</div>
+<div class="body">Мы предоставляем услуги по доставке и установке мебели. Предусмотрено гарантийное обслуживание мебели.</div>
+</div>
+</div>
+</div>
+<div class="swiper_arrow">
+<div class="swiper-pagination_work"></div>
+<div class="swiper_arrow_btn swiper-work-prev"></div>
+<div class="swiper_arrow_btn swiper-work-next"></div>
+</div>
+</div>
+</div>
+<div class="active_block_wr">
+<div class="block_inner">
+<div class="title">Наша социальная и профессиональная активность</div>
+<div class="block_text">
+<div class="text">Мы-активная компания и постоянно учавствуем в отраслевых выставках и мероприятиях по дизайну,также наши успехи отмечают администрация города и области</div>
+<div class="swiper_arrow">
+<div class="swiper-pagination_active"></div>
+<div class="swiper_arrow_btn swiper-active-prev"></div>
+<div class="swiper_arrow_btn swiper-active-next"></div>
+</div>
+</div>
+</div>
+<div class="swiper mySwiper_active">
+<div class="swiper-wrapper">
+<a href="files/ac1.jpg" class="item swiper-slide" width="280" height="302">
+<img src="files/ac1.jpg" alt="">
+</a>
+<a href="files/ac2.jpg" class="item swiper-slide" width="280" height="302">
+<img src="files/ac2.jpg" alt="">
+</a>
+<a href="files/ac3.jpg" class="item swiper-slide" width="280" height="302">
+<img src="files/ac3.jpg" alt="">
+</a>
+<a href="files/ac4.jpg" class="item swiper-slide" width="280" height="302">
+<img src="files/ac4.jpg" alt="">
+</a>
+<a href="files/ac5.jpg" class="item swiper-slide" width="280" height="302">
+<img src="files/ac5.jpg" alt="">
+</a>
+<a href="files/ac6.jpg" class="item swiper-slide" width="280" height="302">
+<img src="files/ac6.jpg" alt="">
+</a>
+<a href="files/ac7.jpg" class="item swiper-slide" width="280" height="302">
+<img src="files/ac7.jpg" alt="">
+</a>
+</div>
+</div>
+<div class="block_inner block_border">
+<div class="text">Мы-активная компания и постоянно учавствуем в отраслевых выставках и мероприятиях по дизайну,также наши успехи отмечают администрация города и области</div>
+</div>
+</div>
+<div class="partner_block_wr">
+<div class="image_bg" style="background-image: url(files/part_bg.jpg);"></div>
+<div class="image_bg" style="background-image: url(files/part_bg2.jpg);"></div>
+<div class="image_bg" style="background-image: url(files/part_bg3.jpg);"></div>
+<div class="image_bg" style="background-image: url(files/part_bg4.jpg);"></div>
+<div class="image_bg" style="background-image: url(files/part_bg5.jpg);"></div>
+<div class="image_bg" style="background-image: url(files/part_bg6.jpg);"></div>
+<div class="image_bg" style="background-image: url(files/part_bg7.jpg);"></div>
+<div class="image_bg" style="background-image: url(files/part_bg8.jpg);"></div>
+<div class="block_inner">
+<div class="title">Посмотрите, <strong>что говорят наши партнеры</strong></div>
+<div class="slider_inner">
+<div class="swiper mySwiper_partner">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including</div>
+</div>
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  </div>
+</div>
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  </div>
+</div>
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  </div>
+</div>
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  </div>
+</div>
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  </div>
+</div>
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  </div>
+</div>
+<div class="swiper-slide">
+<div class="right">
+<div class="image">
+<img src="files/part.jpg" alt="">
+</div>
+<div class="name">Имя фамилия</div>
+<div class="date">00 месяц 2000</div>
+<a href="" class="link">Посмотреть профиль Вконакте</a>
+</div>
+<div class="text_block">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  </div>
+</div>
+</div>
+</div>
+<div class="swiper_arrow">
+<div class="swiper_arrow_btn swiper-partner-prev"></div>
+<div class="swiper_arrow_btn swiper-partner-next"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="reviews_block_wr" id="reviews">
+<div class="block_inner">
+<div class="title">отзывы КЛИЕНТОВ</div>
+</div>
+</div></div>
+<footer class="footer" id="contacts">
+<div class="block_inner">
+<div class="left">
+<div class="title">Остались вопросы?</div>
+<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A66f9d859c051b7f2673354b937ae152c8f2e2321c8999f00ae4e5cf3dab7dcab&amp;source=constructor" width="100%" height="475" frameborder="0"></iframe>
+</div>
+<div class="right">
+<div class="title">Остались вопросы?</div>
+<div class="text">Задайте ваш вопрос или кратко опишите ситуацию. <br>Мы очень быстро свяжемся с вами</div>
+<div class="address">
+<div class="name">Адрес:</div>
+<div class="body">г. Кострома ул. Димитрова 15</div>
+</div>
+<div class="phone">
+<div class="name">Свяжитесь с нами:</div>
+<div class="body">
+<div class="item">
+<a href="tel:+7 910 193 79 99">+7 910 193 79 99</a>
+<span> Дмитрий</span>
+</div>
+<div class="item">
+<a href="tel:+7 910 377-13-77">+7 910 377-13-77</a>
+<span> Администратор</span>
+</div>
+</div>
+</div>
+<div class="soc_block">
+<a href="">
+<img src="files/soc1.svg" alt="">
+</a>
+<a href="">
+<img src="files/soc2.svg" alt="">
+</a>
+<a href="">
+<img src="files/soc3.svg" alt="">
+</a>
+<a href="">
+<img src="files/soc4.svg" alt="">
+</a>
+</div>
+<div class="time">
+<div class="name">Режим работы:</div>
+<div class="body">Пн-Пт: 9.00 - 18.00   Сб: 10.00 - 16.00</div>
+</div>
+</div>
+<div class="bottom">
+<form class="form_block" action="send_form.php" method="post" enctype="multipart/form-data">
+<div class="row_fields">
+<div class="col">
+<div class="field">
+<input type="text" name="name" placeholder="Ваше имя">
+</div>
+<div class="field required">
+<input type="text" name="phone" placeholder="Ваш номер телефона" required>
+</div>
+</div>
+<div class="textarea">
+<div class="field">
+<textarea name="message" placeholder="Дополнительная информация"></textarea>
+</div>
+</div>
+</div>
+<div class="bottom_field">
+<div class="field file">
+<input type="file" name="file" id="file_field">
+<label for="file_field">Прикрепить файл</label>
+</div>
+<div class="field checkbox required">
+<label>
+<input type="checkbox" name="policy" required>
+<i></i>
+<span>Я согласен с <a href="">политикой конфиденциальности</a></span>
+</label>
+</div>
+</div>
+<button class="btn" type="submit">Отправить сообщение</button>
+</form>
+<div class="police_block">Политика конфиденциальности</div>
+</div>																	
+</div>
+</footer>
+</div>
+<div class="up_btn"></div>
+<script src="js/lightgallery-all.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
-
 </html>
