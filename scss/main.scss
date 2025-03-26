@@ -613,6 +613,11 @@ img, textarea, input, table {
                     display: block;
                     text-decoration: none;
                 }
+
+                img {
+                    width: auto;
+                    height: auto;
+                }
             }
 
             .right {
@@ -832,9 +837,7 @@ img, textarea, input, table {
 
             .body {
                 max-width: 790px;
-                opacity: 0;
                 transition: all .6s;
-                transform: translate(0, 50%);   
 
                 .title{
                     font-weight: 400;
@@ -1439,6 +1442,7 @@ img, textarea, input, table {
                 border-radius: 70px;
                 object-fit: cover;
                 width: 100%;
+                height: auto;
             }
         }
 
@@ -1739,6 +1743,12 @@ img, textarea, input, table {
 
         @media all and (max-width: 767px) {
             width: 236px;
+        }
+
+        img {
+            height: 302px;
+            width: 100%;
+            object-fit: cover;
         }
     }
 
@@ -2434,6 +2444,12 @@ img, textarea, input, table {
     .image {
         font-size: 0;
         margin-bottom: 33px;
+
+        img {
+            max-height: 547px;
+            width:  100%;
+            object-fit: cover;
+        }
     }
 
     .text_block {
@@ -2544,6 +2560,7 @@ img, textarea, input, table {
                 object-fit: cover;
                 transform: scale(1);
                 transition: all .5s;
+                max-height: 320px;
             }
 
             &:hover {
@@ -2555,7 +2572,7 @@ img, textarea, input, table {
 
         @media all and (max-width: 767px) {
             flex-wrap:wrap;
-            
+
             a {
                 flex: 0 0 calc(50% - 5px);
 

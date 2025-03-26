@@ -20,23 +20,23 @@ document.addEventListener("DOMContentLoaded", function () {
         moreBtn.style.display = 'block';
     } 
 
-    if(document.querySelector('.mySwiper_images')){
-        const newProductsSwiper = new Swiper('.mySwiper_images', {
-            loop: false,
-            slidesPerView: 1,
-            loopedSlides: 1,
-            navigation: {
-                nextEl: '.swiper-images-next',
-                prevEl: '.swiper-images-prev',
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            effect: "fade",
-            lazy: true
-        });
-    }
+    // if(document.querySelector('.mySwiper_images')){
+    //     const newProductsSwiper = new Swiper('.mySwiper_images', {
+    //         loop: false,
+    //         slidesPerView: 1,
+    //         loopedSlides: 1,
+    //         navigation: {
+    //             nextEl: '.swiper-images-next',
+    //             prevEl: '.swiper-images-prev',
+    //         },
+    //         pagination: {
+    //             el: ".swiper-pagination",
+    //             clickable: true,
+    //         },
+    //         effect: "fade",
+    //         lazy: true
+    //     });
+    // }
 
     if(document.querySelector('.mySwiper_preim')){
         const newProductsSwiper = new Swiper('.mySwiper_preim', {
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
             slidesPerView: 1,
             loopedSlides: 1,
             spaceBetween: 20,
+            autoHeight: true,
             navigation: {
                 nextEl: '.swiper-work-next',
                 prevEl: '.swiper-work-prev',
@@ -181,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    const anchorLinks = document.querySelectorAll(".anchor_menu a");
+    const anchorLinks = document.querySelectorAll(".anchor_menu a, .anchor_btn");
     const html = document.documentElement;
     const menuBtn = document.querySelector('.burger');
     const menuWrapper = document.querySelector('.menu_burger');
