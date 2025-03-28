@@ -127,16 +127,16 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             lazy: true,
             effect: "fade",
-            on: {
-                slideChange: function () {
-                    const activeIndex = this.activeIndex;
-                    const images = document.querySelectorAll('.image_bg');
+            // on: {
+            //     slideChange: function () {
+            //         const activeIndex = this.activeIndex;
+            //         const images = document.querySelectorAll('.image_bg');
 
-                    images.forEach((img, index) => {
-                        img.style.opacity = index === activeIndex ? '1' : '0';
-                    });
-                }
-            }
+            //         images.forEach((img, index) => {
+            //             img.style.opacity = index === activeIndex ? '1' : '0';
+            //         });
+            //     }
+            // }
         });
 
         document.querySelectorAll('.image_bg').forEach((img, index) => {
@@ -240,5 +240,36 @@ document.addEventListener("DOMContentLoaded", function () {
         fileInput.addEventListener("change", function () {
             fileLabel.textContent = this.files.length ? this.files[0].name : "Прикрепить файл";
         });
+    }
+
+    const innerWrap = document.querySelector('.block_inner_page');
+
+    if(innerWrap) {
+        const blockRight = innerWrap.querySelector('.text_block .right');
+        const blockLeft = innerWrap.querySelector('.text_block .left .body');
+        const rightOffsetHeight = blockRight.offsetHeight;
+        const leftOffsetHeight = blockLeft.offsetHeight;
+
+        if(leftOffsetHeight > rightOffsetHeight + 100) {
+            let btnRead = document.createElement('div');
+
+            btnRead.textContent = 'Показать еще';
+            btnRead.classList.add('btn_read_more');
+            blockLeft.insertAdjacentElement('afterend', btnRead);
+            blockLeft.style.height = `${rightOffsetHeight - 40}px`;
+            blockLeft.classList.add('heightHide');
+
+            btnRead.addEventListener('click', function(){
+                if(blockLeft.classList.contains('heightHide')){
+                    blockLeft.classList.remove('heightHide');
+                    blockLeft.style.height = '100%';
+                    btnRead.textContent = 'Скрыть';
+                } else {
+                    blockLeft.classList.add('heightHide');
+                    blockLeft.style.height = `${rightOffsetHeight - 40}px`;
+                    btnRead.textContent = 'Показать еще';
+                }
+            })
+        }
     }
 });
