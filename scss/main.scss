@@ -2463,6 +2463,20 @@ img, textarea, input, table {
         }
     }
 
+    .title_mobile {
+        display: none;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: var(--text);
+        margin: 0 0 20px;
+
+        @media all and (max-width: 767px) {
+            display: block;
+        }
+    }
+
     .text_block {
         display: flex;
         align-items: start;
@@ -2525,6 +2539,7 @@ img, textarea, input, table {
             font-size: 18px;
             line-height: 155%;
             color: #000;
+            display: none;
 
             .price {
                 font-weight: 500;
@@ -2636,6 +2651,7 @@ img, textarea, input, table {
 
                 .left {
                     .title {
+                        display: none;
                         margin-bottom: 10px;
                     }
                 }

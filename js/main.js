@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if(innerWrap) {
         const blockRight = innerWrap.querySelector('.text_block .right');
         const blockLeft = innerWrap.querySelector('.text_block .left .body');
-        const rightOffsetHeight = blockRight.offsetHeight;
+        const rightOffsetHeight = 230;
         const leftOffsetHeight = blockLeft.offsetHeight;
 
         if(leftOffsetHeight > rightOffsetHeight + 100) {
